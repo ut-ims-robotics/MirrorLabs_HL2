@@ -26,7 +26,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
 4. Install the unity version, which you will be asked.
     - During the installation make sure to check Visual Studio 2019, if you don't have it installed
     - And make sure to check Universal Windows Platform (UWP) Support and Windows build support. If you miss this step, you can add them later in the installs tab if you press 3 dots on the Unity version and choose Add Modules option
-5. After installation open the project. Skip the prompt abbout new unity version.
+5. After installation open the project. Skip the prompt about new unity version.
 6. In the prooject panel navigate to Assets/MirrorLabs/Scenes and double click on ML_UniversalRobotics_ur5_modified scene. This will open the scene in unity.
 7. In the Hierarchy window unfold RosConnectors game object
 8. Click on one of two object and in Ros Connector (Script) change Ros Bridge Server Url and Ros Bridge Server_IP with the IP of your ROS machine. Port for Url should remain the same.
@@ -34,7 +34,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
 10. Go to File -> Build Settings.
 11. Make sure, that UWP is chosen (if not, choose it and press switch platform)
 12. Verify that only the currrent scene is chosen in the Scenes in Build window.
-13. Set terget device to Hololens and Architecture to ARM64.
+13. Set target device to Hololens and Architecture to ARM64.
 14. Press build and choose folder where to save the built project.
 15. After building go to the specified folder and open the solution file.
 16. Go to Project -> Properties and to Debugging tab.

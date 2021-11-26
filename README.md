@@ -48,6 +48,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
 2. Install rosbridge_suite.
 3. Clone [Universal Robot repository](https://github.com/ros-industrial/universal_robot) into src folder of your catkin workspace.
     - Depending on your controller box and software, you might also need the [following repository](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver).
+    - If ROS_Driver is used, make sure that [externa control](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/doc/install_urcap_cb3.md) is installed.
 4. Clone the [following package](https://github.com/ut-ims-robotics/hl_ur5_ik) into src folder of your catkin workspace.
 5. Build Everything
 

@@ -7,7 +7,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
 - ROS machine with ROS Noetic or Melodic.
 - Unity side of things should be done on Windows machine
 - [Unity Hub](https://unity3d.com/get-unity/download)
-- [Unable Developer Mode on Hololens and Windows Machine](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-visual-studio?tabs=hl2)
+- [Enable Developer Mode on Hololens and Windows Machine](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-visual-studio?tabs=hl2)
 
 ## Installation
 
@@ -27,7 +27,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
     - During the installation make sure to check Visual Studio 2019, if you don't have it installed
     - And make sure to check Universal Windows Platform (UWP) Support and Windows build support. If you miss this step, you can add them later in the installs tab if you press 3 dots on the Unity version and choose Add Modules option
 5. After installation open the project. Skip the prompt about new unity version.
-6. In the prooject panel navigate to Assets/MirrorLabs/Scenes and double click on ML_UniversalRobotics_ur5_modified scene. This will open the scene in unity.
+6. In the project panel navigate to Assets/MirrorLabs/Scenes and double click on ML_UniversalRobotics_ur5_modified scene. This will open the scene in unity.
 7. In the Hierarchy window unfold RosConnectors game object
 8. Click on one of two object and in Ros Connector (Script) change Ros Bridge Server Url and Ros Bridge Server_IP with the IP of your ROS machine. Port for Url should remain the same.
 9. Do the same with the remaining object.
@@ -35,10 +35,10 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
 11. Make sure, that UWP is chosen (if not, choose it and press switch platform)
 12. Verify that only the currrent scene is chosen in the Scenes in Build window.
 13. Set target device to Hololens and Architecture to ARM64.
-14. Press build and choose folder where to save the built project.
+14. Press build and choose or create any folder where you want to save the built project.
 15. After building go to the specified folder and open the solution file.
 16. Go to Project -> Properties and to Debugging tab.
-17. Fill in Machine Name with the ip Hololens 2
+17. Fill in Machine Name with the ip address of the Hololens 2
 18. Under the menu bar change debug to release, ARM to ARM64 and set to remote machine and press start debugging.
 19. After deploying to Hololens, app will launch automatically, but you will be able to open it yourself from the app menu on the hololens
 
@@ -50,7 +50,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
     - Depending on your controller box and software, you might also need the [following repository](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver).
     - If ROS_Driver is used, make sure that [externa control](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/blob/master/ur_robot_driver/doc/install_urcap_cb3.md) is installed.
 4. Clone the [following package](https://github.com/ut-ims-robotics/hl_ur5_ik) into src folder of your catkin workspace.
-5. Build Everything
+5. Build entire catkin workspace
 
 ## Running the setup
 

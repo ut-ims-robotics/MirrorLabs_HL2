@@ -22,7 +22,7 @@ This repository is a modificatiion of Unity project made be Doris Ashenbenner an
         4. Press activate new license button.
         5. Choose personal and choose the answer, which suits you after that.
         6. Personal license will be acctivated.
-3. Press ADD button and choose the [MirrorLabs_HL2](https://github.com/ut-ims-robotics/MirrorLabs_HL2/tree/main/MirrorLabs_HL2) folder (not the repository folder, but nested one)
+3. Press ADD button and choose the MirrorLabs_HL2.
 4. Install the unity version, which you will be asked.
     - During the installation make sure to check Visual Studio 2019, if you don't have it installed
     - And make sure to check Universal Windows Platform (UWP) Support and Windows build support. If you miss this step, you can add them later in the installs tab if you press 3 dots on the Unity version and choose Add Modules option
